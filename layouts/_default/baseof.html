@@ -1,0 +1,10 @@
+<html>
+    {{block "head" . }} {{ partial "head.html" . }} {{ end }}
+<body class="bodyteste">
+    {{ block "nav" . }} {{ partial "site-nav.html" . }} {{ end }}
+    {{ block "header" . }} <strong>HEADER</strong><hr>{{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}<hr> <strong>FOOTER</strong> {{ end }}
+    {{ block "scripts" . }}{{ end }}
+</body>
+</html>

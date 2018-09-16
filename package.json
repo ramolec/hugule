@@ -1,0 +1,20 @@
+{
+  "name": "hugule",
+  "version": "0.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-hash": "^4.1.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-shell": "^0.6.5",
+    "tailwindcss": "^0.6.5",
+    "vinyl-paths": "^2.1.0"
+  },
+  "license": "MIT"
+}
